@@ -1,0 +1,22 @@
+#fakeBtn{
+  opacity: 0;
+}
+#REALBtn{
+  outline:none;
+}
+#fakeNav{
+  z-index: -1;
+  opacity: 0;  
+}
+#REALNav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid #ced4da;
+}
+#logo{
+  color: #0067b8;
+  font-size: 27px;
+}

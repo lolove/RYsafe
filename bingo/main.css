@@ -1,0 +1,4 @@
+.modal-backdrop.fade.show{
+  -webkit-transition-delay:10s!important;
+  -moz-transition-delay:10s!important;
+}

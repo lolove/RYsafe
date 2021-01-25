@@ -1,0 +1,20 @@
+#outDiv{
+  /* background-color: rgb(0, 255, 128);   */
+  background: url("./src/img/login.jpg") left center fixed no-repeat;
+  background-size: cover;
+}
+#mainDiv{
+  background-color: #F8F9FA;
+}
+#imDriverDiv{
+
+  height:53.99px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+#imDriverLabel{
+  white-space:nowrap;
+}

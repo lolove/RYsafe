@@ -1,0 +1,49 @@
+.card-icon-red{
+  color: #ff0000;
+}
+.card-icon-green{
+  color: #00b600;
+}
+.card-icon-yellow{
+  color: #ffaf00;
+}
+.card-icon-blue{
+  color: #006eff;
+}
+.card{
+  
+}
+#onCar{
+  position: absolute;
+  top: calc(100vh - 60px);
+  right: 12px; 
+}
+#cleaned{
+  position: absolute;
+  top: calc(100vh - 60px);
+  right: 12px; 
+}
+#mainContainer{
+  position: relative;
+}
+#carBG{  
+  background: url("src/img/carbg.jpg") top center;
+  background-attachment: fixed;
+  background-size: 100vw auto;
+  
+
+  height: 30vh;
+  position: relative;
+  
+}
+
+#car-id{
+  color:#ffffff;
+  
+}
+#name{
+  font-weight:bolder;
+
+
+  
+}

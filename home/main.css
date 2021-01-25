@@ -1,0 +1,118 @@
+.fixed {
+  background: url("../src/img/krzysztof-nowak-busy-street-arts.png") center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.fixed2 {
+background: url("../src/img/131125_r24296.png") center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#white {
+  color: white;
+}
+
+.background{
+  background: url("../src/img/Hand-Luggage-Only-19-1.jpg") center center;
+  background-size: cover;
+}
+
+#searchDiv{
+  background-color: white;
+  height: 100%;
+  min-height: 30vmin;
+  max-height: 50vmin;
+}
+
+#input{
+  background-color: #E7E3E9;
+  border:0 none;
+  outline:medium;
+}
+
+#mainContainer{
+  position: relative;
+}
+
+.typing {
+    width: 4em;
+    height: 35px;
+    font-size: 28px;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 1.5s steps(6, end), blink-caret .75s step-end 1.5s infinite;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+}
+
+.typing2 {
+    width: 2em;
+    height: 35px;
+    font-size: 28px;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing2 1.5s steps(5, end), blink-caret .75s step-end 1.5s infinite;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+}
+
+.typing3 {
+    width: 4em;
+    height: 35px;
+    font-size: 28px;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing3 1.5s steps(7, end), blink-caret .75s step-end 1.5s infinite;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 6.6em; }
+}
+
+@keyframes typing2 {
+  from { width: 0; }
+  to { width: 5em; }
+}
+
+@keyframes typing3 {
+  from { width: 0; }
+  to { width: 7em; }
+}
+
+@keyframes blink-caret {
+  from, to { box-shadow: 1px 0 0 0 transparent; }
+  50% { box-shadow: 1px 0 0 0; }
+}
+
+@keyframes with_delay {
+  from { width: 0; }
+  to { width: 0; }
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.hr {
+  border: 1px solid white;
+  width: 300px;
+}
